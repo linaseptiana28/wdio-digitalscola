@@ -1,0 +1,13 @@
+{
+  "name": "wdio-digitalscola",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cli": "^9.0.6",
+    "@wdio/local-runner": "^9.0.6",
+    "@wdio/mocha-framework": "^9.0.6",
+    "@wdio/spec-reporter": "^9.0.4"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}
